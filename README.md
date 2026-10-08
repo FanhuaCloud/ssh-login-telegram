@@ -11,11 +11,8 @@
 可以通过 Telegram 的 `@BotFather` 创建机器人并取得 Bot Token。先向机器人发送一条消息，再使用 Telegram Bot API 或合适的工具查出对话的 Chat ID。群组的 Chat ID 通常是负数；安装程序接受带负号的数字。
 
 ## 下载
-
-将下面命令中的 `YOUR_GITHUB_USERNAME/YOUR_REPOSITORY` 替换为实际的 GitHub 用户名和仓库名。若默认分支不是 `main`，也请相应修改分支名。
-
 ```bash
-curl -fL -o install.sh https://raw.githubusercontent.com/FanhuaCloud/ssh-login-telegram/main/install.sh
+curl -fL -o install.sh https://raw.githubusercontent.com/FanhuaCloud/ssh-login-telegram/master/install.sh
 ```
 
 也可以在电脑上从项目页面下载 `install.sh`，再将文件上传到服务器。下载后可以先检查脚本内容：
